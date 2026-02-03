@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  cmdi-cmdi_level002:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cmdi_level002
+    restart: unless-stopped
+    ports:
+      - "8008:80"   
+    volumes:
+      - ./src:/var/www/html:ro  #
