@@ -32,7 +32,7 @@
     <div class="page-header" id="banner">
         <div class="row">
             <div class="col-lg-12">
-                    <h1 class="cover-heading">Command Injection Level1</h1>
+                    <h1 class="cover-heading">Command Injection Level2</h1>
                     <form action="#" method="POST" id="frm_tool">
                     <select name=command>
                         <option value="ping">ping</option>
