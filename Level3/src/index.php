@@ -1,6 +1,6 @@
 <?php 
    $command = 'ping';  
-   $blacklist = ['cat', 'ls', 'tail', 'head','more', 'less', 'nc', 'bash', '&&', '|', '`', '<', '>', '&'];
+   $blacklist = ['cat', 'ls', 'tail', 'head', 'whoami','more', 'less', 'nc', 'bash', '&&', '|', '`', '<', '>', '&'];
    if(isset($_POST['target'])){
       $target = $_POST['target'];
       foreach($blacklist as $item) {
